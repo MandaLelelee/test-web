@@ -1,15 +1,13 @@
 <template>
-  <div id="app">
-    <router-view/>
-  </div>
+ <div>联系我们</div>
 </template>
 
 <script>
 export default {
-  name: 'App'
+  name: 'contact'
 }
 </script>
 
-<style>
+<style scoped>
 
 </style>

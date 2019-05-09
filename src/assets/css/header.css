@@ -1,0 +1,57 @@
+.headerMenu{
+  min-height: 100px;
+  width: 100%;
+  background-color: #eeeeee;
+}
+
+a,a:visited {
+  outline:none;
+  color:#ffffff;
+}
+
+a:hover{
+  text-decoration:none;
+}
+
+nav{
+  display:inline-block;
+  margin:60px auto 45px;
+  background-color:#ffffff;
+  box-shadow:0 1px 1px #ccc;
+  border-radius:2px;
+}
+
+nav a{
+  display:inline-block;
+  padding: 18px 30px;
+  color:#000000;
+  font-weight:bold;
+  font-size:16px;
+  text-decoration:none !important;
+  line-height:1;
+  text-transform: uppercase;
+  background-color:transparent;
+  width: 80px;
+  text-align: center;
+
+  -webkit-transition:background-color 0.25s;
+  -moz-transition:background-color 0.25s;
+  transition:background-color 0.25s;
+}
+
+nav a:first-child{
+  border-radius:2px 0 0 2px;
+}
+
+nav a:last-child{
+  border-radius:0 2px 2px 0;
+}
+
+nav.home .home,
+nav.products .products,
+nav.successfulExamples .successfulExamples,
+nav.about .about,
+nav.contact .contact{
+  background-color: #ff0003;
+  color: #ffffff;
+}
