@@ -1,24 +1,35 @@
 .headerMenu{
   min-height: 100px;
   width: 100%;
-  background-color: #eeeeee;
+  background-color: #f8f8f8;
+  overflow: hidden;
+}
+.webLogo{
+  display: inline-block;
+  text-align: center;
+  margin-left: 180px;
 }
 
-a,a:visited {
-  outline:none;
-  color:#ffffff;
+h1{
+  display: inline-block;
+  color: #929292;
+  margin-top: 40px;
+  float: right;
 }
 
-a:hover{
-  text-decoration:none;
+img{
+   display: inline-block;
+   height: 95px;
+   width: 88px;
 }
 
 nav{
   display:inline-block;
-  margin:60px auto 45px;
   background-color:#ffffff;
-  box-shadow:0 1px 1px #ccc;
   border-radius:2px;
+  margin-top: 50px;
+  margin-right: 180px;
+  float: right;
 }
 
 nav a{
@@ -26,7 +37,7 @@ nav a{
   padding: 18px 30px;
   color:#000000;
   font-weight:bold;
-  font-size:16px;
+  font-size:15px;
   text-decoration:none !important;
   line-height:1;
   text-transform: uppercase;
@@ -47,11 +58,12 @@ nav a:last-child{
   border-radius:0 2px 2px 0;
 }
 
-nav.home .home,
-nav.products .products,
-nav.successfulExamples .successfulExamples,
-nav.about .about,
-nav.contact .contact{
+nav a:hover{
+  color: #ff0003;
+}
+
+.router-link-exact-active,
+.router-link-active{
   background-color: #ff0003;
-  color: #ffffff;
+  color: #ffffff !important;
 }
