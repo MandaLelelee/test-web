@@ -13,28 +13,32 @@ export default new Router({
   mode: 'history',
   routes: [
     {
+      path: '/',
+      component: home
+    },
+    {
       path: '/home',
-      name: 'home',
+      name: 'Home',
       component: home
     },
     {
       path: '/products',
-      name: 'products',
+      name: 'Products',
       component: products
     },
     {
       path: '/successfulExamples',
-      name: 'successfulExamples',
+      name: 'SuccessfulExamples',
       component: successfulExamples
     },
     {
       path: '/contact',
-      name: 'contact',
+      name: 'Contact',
       component: contact
     },
     {
       path: '/about',
-      name: 'about',
+      name: 'About',
       component: about
     }
   ]
