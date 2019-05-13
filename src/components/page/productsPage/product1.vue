@@ -1,12 +1,10 @@
 <template>
-    <div>成功
-      <router-view/>
-    </div>
+    <div>产品1</div>
 </template>
 
 <script>
 export default {
-  name: 'successfulExamples'
+  name: 'product1'
 }
 </script>
 

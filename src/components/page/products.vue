@@ -1,5 +1,8 @@
 <template>
-  <div>产品</div>
+  <div>
+    <img src="../../assets/img/top.jpg" style="width: 100%;height: 300px">
+    <router-view/>
+  </div>
 </template>
 
 <script>

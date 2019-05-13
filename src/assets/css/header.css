@@ -14,8 +14,8 @@
 
 h1 {
   display: inline-block;
-  color: #929292;
-  margin-top: 40px;
+  color: #808080;
+  margin: 55px 0 0 10px;
   float: right;
 }
 
@@ -52,12 +52,12 @@ nav a {
   transition: background-color 0.25s;
 }
 
-nav a:first-child {
-  border-radius: 2px 0 0 2px;
+nav ul li:first-child .home{
+  border-radius: 3px 0 0 3px;
 }
 
-nav a:last-child {
-  border-radius: 0 2px 2px 0;
+nav ul li:last-child .contact{
+  border-radius: 0 3px 3px 0;
 }
 
 nav a:hover {
@@ -83,6 +83,7 @@ ul li ul {
   top: 50px;
   left: 0;
   display: none;
+  z-index: 99;
 }
 
 ul li ul li:hover {
@@ -99,3 +100,10 @@ ul li:hover ul {
   background-color: #ff0003 !important;
   color: #ffffff !important;
 }
+
+.productsMenu .router-link-exact-active,
+.successfulExamplesMenu .router-link-exact-active,
+.aboutMenu .router-link-exact-active{
+  background-color: #ffd7d7 !important;
+}
+
