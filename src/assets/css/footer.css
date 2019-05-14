@@ -1,0 +1,56 @@
+.footer-top {
+  width: 100%;
+  min-height: 150px;
+  background-color: #000000;
+  color: #e1e1e1;
+  text-align: center;
+  font-size: 12px;
+}
+
+.footer-top h3{
+  border-bottom: 2px solid #ffffff;
+}
+
+.footer-contact,
+.footer-follow {
+  height: 100%;
+  width: 380px;
+/*  background-color: grey;*/
+  text-align: left;
+  line-height: 2em;
+  display: inline-block;
+  vertical-align: top; /*居中对齐*/
+  margin: 20px 50px;
+}
+
+
+
+
+
+.footer-follow-weiBo{
+  float: left;
+  margin: 0 80px;
+}
+
+.footer-follow span{
+  text-decoration: none;
+}
+.footer-follow-weiBo img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.footer-follow-weiXin img {
+  height: 80px;
+  width: 80px;
+}
+
+
+
+.footer-bottom{
+  width: 100%;
+  min-height: 25px;
+  background-color: #404040;
+  text-align: center;
+  padding-top: 8px;
+}

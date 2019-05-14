@@ -1,0 +1,22 @@
+.content {
+  margin: 100px 300px;
+  text-align: center;
+}
+
+p {
+  text-indent: 2em; /*em是相对单位，2em即现在一个字大小的两倍*/
+  text-align: justify;
+  padding: 50px 50px 100px;
+}
+
+h2 p {
+  border-bottom: 1px solid #000000;
+  padding: 6px;
+}
+
+h2 span{
+  border-bottom: 5px solid #000000;
+  padding-bottom: 10px;
+}
+
+

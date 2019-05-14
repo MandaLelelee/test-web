@@ -10,7 +10,7 @@ import product1 from '@/components/page/productsPage/product1'
 import product2 from '@/components/page/productsPage/product2'
 import product3 from '@/components/page/productsPage/product3'
 
-import '../assets/css/globalStyle.css'
+import '../assets/css/all.css'
 
 Vue.use(Router)
 

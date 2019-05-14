@@ -1,7 +1,7 @@
 .headerMenu {
   min-height: 100px;
   width: 100%;
-  background-color: #f8f8f8;
+  background-color: #ffffff;
   list-style: none;
   text-decoration: none;
 }
@@ -9,17 +9,17 @@
 .webLogo {
   display: inline-block;
   text-align: center;
-  margin-left: 180px;
+  margin-left: 15%;
 }
 
-h1 {
+.webLogo h1 {
   display: inline-block;
-  color: #808080;
-  margin: 55px 0 0 10px;
+  color: #000000;
+  margin: 35px 0 0 10px;
   float: right;
 }
 
-img {
+.webLogo img {
   display: inline-block;
   height: 95px;
   width: 88px;
@@ -28,23 +28,19 @@ img {
 nav {
   display: inline-block;
   background-color: #ffffff;
-  border-radius: 2px;
-  margin-top: 50px;
-  margin-right: 180px;
+  margin-top: 35px;
+  margin-right: 15%;
   float: right;
 }
 
 nav a {
   display: inline-block;
-  padding: 18px 30px;
+  padding: 8px 20px;
   color: #000000;
-  font-weight: bold;
   font-size: 14px;
   text-decoration: none !important;
-  line-height: 1;
-  text-transform: uppercase;
   background-color: transparent;
-  width: 80px;
+  width: 65px;
   text-align: center;
 
   -webkit-transition: background-color 0.25s;
@@ -52,17 +48,28 @@ nav a {
   transition: background-color 0.25s;
 }
 
-nav ul li:first-child .home{
+/*nav ul li:first-child .home{
   border-radius: 3px 0 0 3px;
 }
 
 nav ul li:last-child .contact{
   border-radius: 0 3px 3px 0;
-}
+}*/
 
 nav a:hover {
-  color: #ff0003;
-  background-color: #f8f8f8;
+  color: #e9280c;
+  /*  background-color: #f8f8f8;*/
+}
+
+/*小三角*/
+b {
+  position: absolute;
+  top: 2px;
+  left: 45px;
+  height: 0;
+  border-width: 9px;
+  border-style: solid dashed dashed;
+  border-color: transparent transparent #f3f4f5;
 }
 
 ul li {
@@ -73,21 +80,28 @@ ul li {
 
 ul li ul li {
   float: none;
-  background-color: #ffffff;
+  background-color: #f3f4f5;
   text-align: center;
+}
+
+ul li ul li:first-child {
+  border-radius: 3px 3px 0 0;
+}
+
+ul li ul li:last-child {
+  border-radius: 0 0 3px 3px;
 }
 
 /*关键一：将二级菜单设置为display：none;*/
 ul li ul {
   position: absolute;
-  top: 50px;
-  left: 0;
   display: none;
   z-index: 99;
+  padding-top: 20px;
 }
 
 ul li ul li:hover {
-  color: #ff0003;
+  color: #e9280c;
 }
 
 /*关键二：在划过二级菜单从属的一级菜单时，设置为display:block;*/
@@ -97,13 +111,14 @@ ul li:hover ul {
 
 .router-link-exact-active,
 .router-link-active {
-  background-color: #ff0003 !important;
+  background-color: #e9280c !important;
   color: #ffffff !important;
 }
 
 .productsMenu .router-link-exact-active,
 .successfulExamplesMenu .router-link-exact-active,
-.aboutMenu .router-link-exact-active{
-  background-color: #ffd7d7 !important;
+.aboutMenu .router-link-exact-active {
+  background-color: #f3f4f5 !important;
+  color: #e9280c !important;
 }
 
