@@ -2,9 +2,10 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import home from '@/components/page/home'
 import products from '@/components/page/products'
-import successfulExamples from '@/components/page/successfulExamples'
+import technicalServices from '@/components/page/technicalServices'
 import about from '@/components/page/about'
 import contact from '@/components/page/contact'
+import recruit from '@/components/page/recruit'
 
 import product1 from '@/components/page/productsPage/product1'
 import product2 from '@/components/page/productsPage/product2'
@@ -46,9 +47,9 @@ export default new Router({
       ]
     },
     {
-      path: '/successfulExamples',
-      name: 'SuccessfulExamples',
-      component: successfulExamples
+      path: '/technicalServices',
+      name: 'technicalServices',
+      component: technicalServices
     },
     {
       path: '/contact',
@@ -59,6 +60,11 @@ export default new Router({
       path: '/about',
       name: 'About',
       component: about
+    },
+    {
+      path: '/recruit',
+      name: 'recruit',
+      component: recruit
     }
   ]
 })

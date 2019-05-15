@@ -9,27 +9,19 @@
 .webLogo {
   display: inline-block;
   text-align: center;
-  margin-left: 15%;
-}
-
-.webLogo h1 {
-  display: inline-block;
-  color: #000000;
-  margin: 35px 0 0 10px;
-  float: right;
+  margin-left: 10%;
 }
 
 .webLogo img {
-  display: inline-block;
-  height: 95px;
-  width: 88px;
+  height: 100px;
+  width: 300px;
 }
 
 nav {
   display: inline-block;
   background-color: #ffffff;
   margin-top: 35px;
-  margin-right: 15%;
+  margin-right: 10%;
   float: right;
 }
 
@@ -116,7 +108,7 @@ ul li:hover ul {
 }
 
 .productsMenu .router-link-exact-active,
-.successfulExamplesMenu .router-link-exact-active,
+.technicalServicesMenu .router-link-exact-active,
 .aboutMenu .router-link-exact-active {
   background-color: #f3f4f5 !important;
   color: #e9280c !important;

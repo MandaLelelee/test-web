@@ -1,12 +1,13 @@
 <template>
-    <div>成功
+    <div>
+      技术服务
       <router-view/>
     </div>
 </template>
 
 <script>
 export default {
-  name: 'successfulExamples'
+  name: 'technicalServices'
 }
 </script>
 

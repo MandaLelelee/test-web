@@ -1,10 +1,12 @@
 <template>
-  <div>关于我们</div>
+<div>
+  招纳贤士
+</div>
 </template>
 
 <script>
 export default {
-  name: 'about'
+  name: 'recruit'
 }
 </script>
 

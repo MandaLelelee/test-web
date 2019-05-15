@@ -3,10 +3,20 @@
   text-align: center;
 }
 
-p {
+.contentTop p {
   text-indent: 2em; /*em是相对单位，2em即现在一个字大小的两倍*/
   text-align: justify;
-  padding: 50px 50px 100px;
+  line-height: 2em;/*行高*/
+}
+.contentTopParagraph p:first-child {
+  padding: 50px 100px 0;
+}
+.contentTopParagraph p:last-child {
+  padding: 0 100px 50px;
+}
+
+span{
+  text-indent: 2em; /*em是相对单位，2em即现在一个字大小的两倍*/
 }
 
 h2 p {

@@ -1,15 +1,14 @@
 <template>
   <div>
-  <!--  <img src="../assets/img/carousel-img/a2.png" style="height: 200px; width: 500px">-->
     <div class="carousel-wrap" id="carousel">
       <!--轮播图列表-->
       <transition-group tag="ul" class='slide-ul' name="list">
         <li v-for="(list,index) in slideList" :key="list.image" v-show="index===currentIndex" @mouseenter="stop" @mouseleave="go">
        <!--   <a :href="list.clickUrl">
-            <img :src="list.image" :alt="list.desc">-->
-          <a>
-            <img :src="list.image">
-          </a>
+            <img :src="list.image" :alt="list.desc">    </a>-->
+            <img :src="list.image" :alt="list.desc">
+          <span class="sloganDown">与员工同命运</span>
+          <span class="sloganUp">与客户同荣耀</span>
         </li>
       </transition-group>
       <!--轮播图位置指示-->
@@ -23,7 +22,7 @@
 
 <script>
 /* import方法导入图片
-   import a1 from '../assets/img/carousel-img/a1.png'
+   import a1 from '../assets/img/carousel-img/a1.jpg'
    'image': a1 */
 
 export default {
@@ -33,24 +32,28 @@ export default {
       slideList: [
         {
           'clickUrl': '#',
-          /*  'desc': 'rsdh', */
-          'image': require('../assets/img/carousel-img/a1.png')
+          'desc': '图片1',
+          'image': require('../../assets/img/carousel-img/a1.png')
         },
         {
           'clickUrl': '#',
-          'image': require('../assets/img/carousel-img/a2.png')
+          'desc': '图片2',
+          'image': require('../../assets/img/carousel-img/a2.jpg')
         },
         {
           'clickUrl': '#',
-          'image': require('../assets/img/carousel-img/a3.png')
+          'desc': '图片3',
+          'image': require('../../assets/img/carousel-img/a3.jpg')
         },
         {
           'clickUrl': '#',
-          'image': require('../assets/img/carousel-img/a4.png')
+          'desc': '图片4',
+          'image': require('../../assets/img/carousel-img/a4.jpg')
         },
         {
           'clickUrl': '#',
-          'image': require('../assets/img/carousel-img/a5.png')
+          'desc': '图片5',
+          'image': require('../../assets/img/carousel-img/a5.jpg')
         }
       ],
       currentIndex: 0,
@@ -87,5 +90,5 @@ export default {
 }
 </script>
 <style scoped>
-@import "../assets/css/carousel.css";
+@import "../../assets/css/carousel.css";
 </style>

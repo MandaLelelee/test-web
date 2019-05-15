@@ -25,24 +25,25 @@
 
 
 
-
-
-.footer-follow-weiBo{
-  float: left;
-  margin: 0 80px;
-}
-
 .footer-follow span{
   text-decoration: none;
 }
-.footer-follow-weiBo img {
+
+.footer-follow-app,
+.footer-follow-weiXin{
+  float: left;
+  margin: 0 25px;
+}
+
+.footer-follow-app img {
   height: 50px;
   width: 50px;
   border-radius: 50%;
 }
 .footer-follow-weiXin img {
-  height: 80px;
-  width: 80px;
+  height: 100px;
+  width: 100px;
+  padding-left: 10px;
 }
 
 

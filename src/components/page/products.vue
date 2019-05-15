@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img src="../../assets/img/top.jpg" style="width: 100%;height: 300px">
+    <img src="../../assets/img/carousel-img/a4.jpg" style="width: 100%;height: 300px">
     <router-view/>
   </div>
 </template>
