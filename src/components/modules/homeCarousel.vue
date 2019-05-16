@@ -7,6 +7,7 @@
        <!--   <a :href="list.clickUrl">
             <img :src="list.image" :alt="list.desc">    </a>-->
             <img :src="list.image" :alt="list.desc">
+          <!--弹出标语-->
           <span class="sloganDown">与员工同命运</span>
           <span class="sloganUp">与客户同荣耀</span>
         </li>
@@ -22,7 +23,7 @@
 
 <script>
 /* import方法导入图片
-   import a1 from '../assets/img/carousel-img/a1.jpg'
+   import a1 from '../assets/img/headerCarousel/a1.jpg'
    'image': a1 */
 
 export default {
@@ -33,27 +34,27 @@ export default {
         {
           'clickUrl': '#',
           'desc': '图片1',
-          'image': require('../../assets/img/carousel-img/a1.png')
+          'image': require('../../assets/img/headerCarousel/a1.png')
         },
         {
           'clickUrl': '#',
           'desc': '图片2',
-          'image': require('../../assets/img/carousel-img/a2.jpg')
+          'image': require('../../assets/img/headerCarousel/a2.jpg')
         },
         {
           'clickUrl': '#',
           'desc': '图片3',
-          'image': require('../../assets/img/carousel-img/a3.jpg')
+          'image': require('../../assets/img/headerCarousel/a3.jpg')
         },
         {
           'clickUrl': '#',
           'desc': '图片4',
-          'image': require('../../assets/img/carousel-img/a4.jpg')
+          'image': require('../../assets/img/headerCarousel/a4.jpg')
         },
         {
           'clickUrl': '#',
           'desc': '图片5',
-          'image': require('../../assets/img/carousel-img/a5.jpg')
+          'image': require('../../assets/img/headerCarousel/a5.jpg')
         }
       ],
       currentIndex: 0,
@@ -90,5 +91,5 @@ export default {
 }
 </script>
 <style scoped>
-@import "../../assets/css/carousel.css";
+@import "../../assets/css/headerCarousel.css";
 </style>

@@ -14,43 +14,35 @@
 }
 
 
-.sloganUp {
-  position: absolute;
-  font-size: 45px;
-  font-family: 楷体;
-  font-weight: 600;
-  text-align: center;
-  bottom: 0;
-  color: #ffffff;
-/*  opacity: 0.8;*/
-  margin-left: 470px;
 
-  animation: sloganUpMove .8s;
-  animation-delay: .3s;
-  animation-fill-mode: forwards;
-
-  /*Safari and Chrome*/
-  -webkit-animation: sloganUpMove .8s;
-  -webkit-animation-delay: .3s;
-  -webkit-animation-fill-mode: forwards;
-
-}
-
+/*标语字体开始*/
+.sloganUp,
 .sloganDown {
   position: absolute;
   font-size: 45px;
   font-family: 楷体;
   font-weight: 600;
   text-align: center;
-  top: 0;
   color: #ffffff;
-  margin-left: 350px;
+}
+.sloganUp{
+  animation: sloganUpMove 1s;
+  animation-delay: 0.3s;
+  animation-fill-mode: forwards;
 
+   /*Safari and Chrome*/
+  -webkit-animation: sloganUpMove 1s;
+  -webkit-animation-delay: 0.3s;
+  -webkit-animation-fill-mode: forwards;
+
+}
+
+.sloganDown {
   animation: sloganDownMove 1s;
   animation-delay: .3s;
   animation-fill-mode: forwards;
 
-  /*Safari and Chrome*/
+  /* Safari and Chrome*/
   -webkit-animation: sloganDownMove 1s;
   -webkit-animation-delay: .3s;
   -webkit-animation-fill-mode: forwards;
@@ -60,9 +52,13 @@
 @keyframes sloganDownMove {
   from {
     top: 50px;
+    left: 150px;
+    opacity: 0;
   }
   to {
     top: 160px;
+    left: 350px;
+    opacity: 1;
   }
 }
 
@@ -70,18 +66,26 @@
 {
   from {
     top: 50px;
+    left: 150px;
+    opacity: 0;
   }
   to {
     top: 160px;
+    left: 350px;
+    opacity: 1;
   }
 }
 
 @keyframes sloganUpMove {
   from {
     bottom: 50px;
+    left:500px;
+    opacity: 0;
   }
   to {
     bottom: 160px;
+    left:470px;
+    opacity: 1;
   }
 }
 
@@ -89,11 +93,21 @@
 {
   from {
     bottom: 50px;
+    left:500px;
+    opacity: 0;
   }
   to {
     bottom: 160px;
+    left:470px;
+    opacity: 1;
   }
 }
+
+
+/*标语字结束*/
+
+
+
 
 .slide-ul li {
   position: absolute;

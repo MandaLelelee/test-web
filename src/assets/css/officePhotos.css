@@ -1,0 +1,27 @@
+.photoBox {
+  display: inline-block;
+  width: 600px;
+  margin: 50px 0px;
+}
+
+.photoBox img {
+  width: 230px;
+  height: 130px;
+  cursor: pointer;
+}
+
+.photoBoxOne img:first-child {
+  margin-right: 20px;
+}
+
+.photoBoxOne img {
+  margin-right: 80px;
+}
+
+.photoBoxTwo img:first-child {
+  margin: 20px 20px 0 0;
+}
+
+.photoBoxTwo img {
+  margin: 20px 80px 0 0;
+}

@@ -16,3 +16,26 @@
   background-color: #e9280c;
   opacity: unset;
 }
+
+
+/*淡入淡出*/
+.scroll-enter{
+  opacity: 0;
+}
+.scroll-enter-to{
+  opacity: 0.5;
+}
+.scroll-enter-active{
+  transition: 1s;
+}
+
+.scroll-leave{
+  opacity: 0.5;
+}
+.scroll-leave-to{
+  opacity: 0;
+}
+.scroll-leave-active{
+  transition: 1s;
+}
+

@@ -1,32 +1,40 @@
 .content {
-  margin: 100px 300px;
+  margin: 80px 300px 100px;
   text-align: center;
 }
 
-.contentTop p {
+.content p {
   text-indent: 2em; /*em是相对单位，2em即现在一个字大小的两倍*/
   text-align: justify;
   line-height: 2em;/*行高*/
 }
-.contentTopParagraph p:first-child {
-  padding: 50px 100px 0;
-}
-.contentTopParagraph p:last-child {
-  padding: 0 100px 50px;
-}
 
-span{
+
+.content span{
   text-indent: 2em; /*em是相对单位，2em即现在一个字大小的两倍*/
 }
 
-h2 p {
+.content h2 p {
   border-bottom: 1px solid #000000;
   padding: 6px;
+  width: 100%;
 }
 
-h2 span{
+.content h2 span{
   border-bottom: 5px solid #000000;
   padding-bottom: 10px;
 }
 
+
+.contentParagraph{
+     width: 650px;
+     display: inline-block;
+}
+
+.contentParagraph p:first-child {
+  padding: 80px 60px 0 100px;
+}
+.contentParagraph p:last-child {
+  padding: 0 60px 0 100px;
+}
 

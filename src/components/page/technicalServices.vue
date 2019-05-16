@@ -1,7 +1,6 @@
 <template>
     <div>
       技术服务
-      <router-view/>
     </div>
 </template>
 

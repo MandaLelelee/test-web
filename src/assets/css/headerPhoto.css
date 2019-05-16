@@ -1,0 +1,23 @@
+div {
+  position: relative;
+  height: 300px;
+  width: 100%;
+  vertical-align: top;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+span {
+  position: absolute;
+  font-size: 45px;
+  font-family: 楷体;
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+  top:70px;
+  right: 500px;
+  z-index: 99;
+}

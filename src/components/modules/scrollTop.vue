@@ -1,7 +1,9 @@
 <template>
-<div class="scrollTop" @click="toTop" v-show="toTopIsShow">
-     返回顶部↑
-</div>
+  <transition name="scroll">
+    <div class="scrollTop" @click="toTop" v-show="toTopIsShow">
+      返回顶部↑
+    </div>
+  </transition>
 </template>
 
 <script>
@@ -47,5 +49,5 @@ export default {
 </script>
 
 <style scoped>
-@import "../../assets/css/scrollTop.css";
+  @import "../../assets/css/scrollTop.css";
 </style>
