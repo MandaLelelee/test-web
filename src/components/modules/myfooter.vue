@@ -11,15 +11,15 @@
       <h3>关注我们</h3>
       <div class="footer-follow-app">
         <span>微博：</span><br>
-        <a href="#"><img src="../../assets/img/weibo.jpg"/></a>
+        <a href="#"><img src="../../assets/img/headerFooter/weibo.jpg"/></a>
       </div>
       <div class="footer-follow-app">
         <span>抖音：</span><br>
-        <a href="#"><img src="../../assets/img/douyin.jpg"/></a>
+        <a href="#"><img src="../../assets/img/headerFooter/douyin.jpg"/></a>
       </div>
       <div class="footer-follow-weiXin">
         <span>微信公众号：士察天下</span><br>
-        <a href="#"><img src="../../assets/img/QRcode.jpg"/></a>
+        <a href="#"><img src="../../assets/img/headerFooter/QRcode.jpg"/></a>
       </div>
     </div>
     <div class="footer-bottom">
@@ -35,5 +35,5 @@ export default {
 </script>
 
 <style scoped>
-  @import '../../assets/css/footer.css';
+  @import '../../assets/css/myfooter.css';
 </style>

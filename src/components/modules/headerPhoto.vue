@@ -1,6 +1,6 @@
 <template>
 <div>
-  <img src="../../assets/img/headerSlogan.jpg">
+  <img src="../../assets/img/headerFooter/headerSlogan.jpg">
   <span class="sloganUp">金牌品质  为您提供一流服务</span>
 </div>
 </template>
@@ -12,5 +12,5 @@ export default {
 </script>
 
 <style scoped>
-@import "../../assets/css/headerPhoto.css";
+@import "../../assets/css/headerSloganPhoto.css";
 </style>

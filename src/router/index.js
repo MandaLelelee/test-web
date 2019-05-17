@@ -33,7 +33,7 @@ export default new Router({
       component: products,
       children: [
         {
-          path: 'a', // 如果设置为‘’ 就代表这是默认子路由 /about
+          path: 'a', // 如果设置为‘’ 就代表这是默认子路由 /products
           component: product1
         },
         {

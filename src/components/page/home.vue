@@ -14,10 +14,12 @@
         </p>
         </div>
         <officePhotos></officePhotos>
+        <a href="/about"><button class="browseMore">了解更多信息</button></a>
       </div>
       <div class="contentBottom">
         <h2><span>推荐产品</span><p></p></h2>
         <productPhotos></productPhotos>
+        <a href="/products"><button class="browseMore">浏览更多产品</button></a>
       </div>
     </div>
   </div>
@@ -25,8 +27,8 @@
 
 <script>
 import carousel from '../modules/homeCarousel'
-import officePhotos from '../modules/officePhotos'
-import productPhotos from '../modules/productPhotos'
+import officePhotos from '../modules/homeOfficePhotos'
+import productPhotos from '../modules/homeProductPhotos'
 
 export default {
   name: 'home',

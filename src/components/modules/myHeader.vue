@@ -12,7 +12,7 @@
         <router-link to="/about"  class="about" >关于我们</router-link>
           <ul class="aboutMenu">
             <b></b>
-            <li><router-link to="/a">公司团队</router-link></li>
+            <li><router-link to="/a">公司简介</router-link></li>
             <li><router-link to="/b">合作伙伴</router-link></li>
           </ul>
         </li>
@@ -20,22 +20,19 @@
         <router-link to="/products"  class="products" >产品介绍</router-link>
         <ul class="productsMenu" >
           <b></b>
-          <li><router-link to="/products/a">产品1</router-link></li>
-          <li><router-link to="/products/b">产品2</router-link></li>
-          <li><router-link to="/products/c">产品3</router-link></li>
-          <li><router-link to="/products/c">产品3</router-link></li>
-          <li><router-link to="/products/c">产品3</router-link></li>
-          <li><router-link to="/products/c">产品3</router-link></li>
+          <li><router-link to="/products/a">Adobe</router-link></li>
+          <li><router-link to="/products/b">Autodesk</router-link></li>
+          <li><router-link to="/products/c">Microsoft</router-link></li>
+          <li><router-link to="/products/c">Dr.web</router-link></li>
         </ul>
       </li>
       <li>
         <router-link to="/technicalServices"  class="technicalServices" >技术服务</router-link>
         <ul class="technicalServicesMenu" >
           <b></b>
-          <li><router-link to="/a">服务1</router-link></li>
-          <li><router-link to="/b">服务2</router-link></li>
-          <li><router-link to="/c">服务3</router-link></li>
-          <li><router-link to="/d">服务4</router-link></li>
+          <li><router-link to="/a">规划咨询</router-link></li>
+          <li><router-link to="/b">定制开发</router-link></li>
+          <li><router-link to="/c">运维培训</router-link></li>
         </ul>
       </li>
       <li>
@@ -57,5 +54,5 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  @import '../../assets/css/header.css';
+  @import '../../assets/css/myheader.css';
 </style>

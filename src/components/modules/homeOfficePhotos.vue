@@ -18,5 +18,5 @@ export default {
 </script>
 
 <style scoped>
-@import "../../assets/css/officePhotos.css";
+@import "../../assets/css/homeOfficePhotos.css";
 </style>

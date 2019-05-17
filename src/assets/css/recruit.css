@@ -1,0 +1,32 @@
+.recruit {
+  margin: 80px 300px 100px;
+  text-align: center;
+}
+
+.recruit h2 p {
+  border-bottom: 1px solid #000000;
+  padding: 6px;
+  width: 100%;
+}
+
+.recruit h2 span{
+  border-bottom: 5px solid #000000;
+  padding-bottom: 10px;
+}
+
+/*招聘信息*/
+.recruitMsg{
+  text-align: justify;
+  line-height: 3em;
+  margin: 80px 100px 0;
+}
+
+.recruitMsg span{
+  font-weight: bold;
+  font-size: large;
+}
+.recruitMsg p span{
+  font-weight: bold;
+  font-size: medium;
+}
+
