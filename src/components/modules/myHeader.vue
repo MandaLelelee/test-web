@@ -9,11 +9,11 @@
         <router-link to="/" exact class="home" >首页</router-link>
         </li>
         <li>
-        <router-link to="/about"  class="about" >关于我们</router-link>
+        <router-link :to="{name:'About'}"  class="about" >关于我们</router-link>
           <ul class="aboutMenu">
             <b></b>
-            <li><router-link to="/a">公司简介</router-link></li>
-            <li><router-link to="/b">合作伙伴</router-link></li>
+            <li><router-link to="/aboutPage/companyProfile">公司简介</router-link></li>
+            <li><router-link to="/aboutPage/partner">合作伙伴</router-link></li>
           </ul>
         </li>
       <li>
@@ -30,9 +30,8 @@
         <router-link to="/technicalServices"  class="technicalServices" >技术服务</router-link>
         <ul class="technicalServicesMenu" >
           <b></b>
-          <li><router-link to="/a">规划咨询</router-link></li>
-          <li><router-link to="/b">定制开发</router-link></li>
-          <li><router-link to="/c">运维培训</router-link></li>
+          <li><router-link to="/a">解决方案</router-link></li>
+          <li><router-link to="/b">增值幅度</router-link></li>
         </ul>
       </li>
       <li>

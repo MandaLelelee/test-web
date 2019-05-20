@@ -3,7 +3,7 @@
     <carousel></carousel>
     <div class="content">
       <div class="contentTop">
-        <h2><span>关于我们</span><p></p></h2>
+        <h2><span>关于三体</span><p></p></h2>
         <div class="contentParagraph">
         <p>三体技术(广州)有限公司（Somtay 3体）总部位于广州市天河区，注册资金200万,是集研发、生产、服务和销售于一体的民营高新技术企业。
           三体公司自成立起，就始终秉承“与员工同命运，与客户同荣耀”的发展理念和服务宗旨，在管理上坚持以人为本，不断革新进步；在业务上坚持质量第一、服务第一，与广大客户共赢共进。

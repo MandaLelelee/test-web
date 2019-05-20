@@ -1,14 +1,14 @@
 <template>
   <div>
     <headerPhoto></headerPhoto>
-    关于我们
+   产品
   </div>
 </template>
 
 <script>
-import headerPhoto from '../../components/modules/headerPhoto'
+import headerPhoto from '../../modules/headerPhoto'
 export default {
-  name: 'about',
+  name: 'products',
   components: {
     headerPhoto
   }
@@ -16,5 +16,5 @@ export default {
 </script>
 
 <style scoped>
-@import "../../assets/css/about.css";
+
 </style>

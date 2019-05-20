@@ -1,15 +1,15 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import home from '@/components/page/home'
-import products from '@/components/page/products'
+import products from '@/components/page/productsPage/products'
 import technicalServices from '@/components/page/technicalServices'
-import about from '@/components/page/about'
+import about from '@/components/page/aboutPage/about'
 import contact from '@/components/page/contact'
 import recruit from '@/components/page/recruit'
 
-import product1 from '@/components/page/productsPage/product1'
-import product2 from '@/components/page/productsPage/product2'
-import product3 from '@/components/page/productsPage/product3'
+import companyProfile from '@/components/page/aboutPage/companyProfile'
+import partner from '@/components/page/aboutPage/partner'
+import leftSlider from '@/components/page/aboutPage/leftSlider'
 
 import '../assets/css/all.css'
 
@@ -30,21 +30,7 @@ export default new Router({
     {
       path: '/products',
       name: 'Products',
-      component: products,
-      children: [
-        {
-          path: 'a', // 如果设置为‘’ 就代表这是默认子路由 /products
-          component: product1
-        },
-        {
-          path: 'b',
-          component: product2
-        },
-        {
-          path: 'c',
-          component: product3
-        }
-      ]
+      component: products
     },
     {
       path: '/technicalServices',
@@ -59,7 +45,21 @@ export default new Router({
     {
       path: '/about',
       name: 'About',
-      component: about
+      component: about,
+      children: [
+        {
+          path: '/aboutPage/companyProfile', // 如果设置为‘ ’ (空)就代表这是默认子路由 /about
+          components: {
+            default: companyProfile,
+            leftSlider: leftSlider
+          }
+        },
+        {
+          path: '/aboutPage/partner',
+          component: partner
+        }
+      ],
+      redirect: '/aboutPage/companyProfile'
     },
     {
       path: '/recruit',
