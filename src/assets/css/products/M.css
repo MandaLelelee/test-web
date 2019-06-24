@@ -1,0 +1,32 @@
+.productContent{
+  padding: 30px 50px;
+}
+
+.products img{
+  box-sizing: border-box;
+  height: 150px;
+  width: 200px;
+  display: inline-block;
+}
+.products img:hover {
+  opacity: 0.5;
+}
+
+.productsDetail{
+  display: inline-block;
+  margin-left: 20px;
+}
+
+
+hr{
+  margin-bottom: 30px;
+  background-color: #dddddd;
+  border: 0;
+  width: 100%;
+  height: 1px;
+}
+
+p{
+  padding:20px 0;
+  color: #999999;
+}

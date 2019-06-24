@@ -49,5 +49,5 @@ export default {
 </script>
 
 <style scoped>
-  @import "../../assets/css/scrollTop.css";
+  @import "../../assets/css/modules/scrollTop.css";
 </style>

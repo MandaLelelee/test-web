@@ -1,0 +1,6 @@
+.paragraph {
+  text-indent: 2em; /*em是相对单位，2em即现在一个字大小的两倍*/
+  text-align: justify;
+  line-height: 2em;/*行高*/
+  padding: 30px 50px;
+}

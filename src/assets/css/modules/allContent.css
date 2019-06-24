@@ -1,0 +1,30 @@
+.allContent{
+  height: auto;
+  display: flex;
+}
+
+.left{
+  display: inline-block;
+}
+
+.right {
+  display: inline-block;
+  width: -webkit-fill-available;
+  width: -moz-fill-available;
+  width: -moz-available;    /* FireFox目前这个生效 */
+  width: fill-available;
+}
+
+.rightContent{
+  padding: 80px 300px 80px 0;
+}
+
+.rightTitle{
+  color: #333333;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 25px 0;
+  display: inline-block;
+}
+
+

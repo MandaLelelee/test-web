@@ -8,8 +8,8 @@
 </template>
 
 <script>
-import myHeader from './components/modules/myHeader'
-import myfooter from './components/modules/myfooter'
+import myHeader from './components/page/headerAndfooter/myHeader'
+import myfooter from './components/page/headerAndfooter/myfooter'
 import scrollTop from './components/modules/scrollTop'
 export default {
   name: 'App',
