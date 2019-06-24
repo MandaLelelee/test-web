@@ -38,7 +38,7 @@ export default {
       let that = this
       let scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop // 兼容
       that.scrollTop = scrollTop
-      if (that.scrollTop > 300) {
+      if (that.scrollTop > 100) {
         that.toTopIsShow = true
       } else {
         that.toTopIsShow = false

@@ -7,8 +7,7 @@ import about from '@/components/page/about/about'
 import contact from '@/components/page/contact/contact'
 import recruit from '@/components/page/recruit/recruit'
 
-import threeDSMAX from '@/components/page/products/Autodesk/3DSMAX'
-import AutoCAD from '@/components/page/products/Autodesk/AutoCAD'
+import productDetail from '@/components/page/products/productDetail'
 
 import '../assets/css/modules/all.css'
 
@@ -105,14 +104,9 @@ export default new Router({
     },
     /* 产品详情页-------------------------------------------------------------------------------------- */
     {
-      path: '/products/Autodesk/3DSMAX',
-      name: 'threeDSMAX',
-      component: threeDSMAX
-    },
-    {
-      path: '/products/Autodesk/AutoCAD',
-      name: 'AutoCAD',
-      component: AutoCAD
+      path: '/products/Detail',
+      name: 'productDetail',
+      component: productDetail
     }
   ]
 })

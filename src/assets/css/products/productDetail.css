@@ -1,0 +1,65 @@
+.detailAll{
+  margin: 0 300px 80px ;
+}
+.detailPhoto{
+  display: inline-block;
+  border-right: 1px solid #dddddd;
+}
+.detailPhoto img{
+  width: 350px;
+  height: 250px;
+  padding-right: 100px;
+}
+
+
+.goBack {
+  color: #666666;
+  font-weight: bold;
+  font-size:15px;
+  padding: 80px 0 50px;
+  cursor: pointer;
+}
+
+.goBack a:hover{
+  text-decoration: underline;
+}
+
+
+
+
+.detailTitle{
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 100px;
+}
+.detailName{
+  border-bottom: 1px solid #dddddd;
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+.detail{
+  margin-top: 25px;
+  padding: 15px 15px;
+  width: 700px;
+  background-color: #eeeeee;
+  color: #666666;
+}
+
+
+
+
+
+.detailText{
+  padding-top: 25px;
+}
+.detailTextTitle{
+  padding: 15px 15px;
+  margin-bottom: 25px;
+  border: 1px solid #dddddd;
+}
+.detailTextTitle span{
+  height: 100%;
+  width: 200px;
+  background-color: #dddddd;
+}
