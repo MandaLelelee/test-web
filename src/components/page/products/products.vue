@@ -55,9 +55,9 @@ export default {
     return {
       list: [
         {
-          'name': 'Adobe',
+          'name': 'Dr.web',
           'id': '2-1',
-          'text': 'Adobe'
+          'text': 'Dr.web'
         },
         {
           'name': 'Autodesk',
@@ -70,24 +70,29 @@ export default {
           'text': 'Microsoft'
         },
         {
-          'name': 'Drweb',
+          'name': 'Adobe',
           'id': '2-4',
-          'text': 'Dr.web'
+          'text': 'Adobe'
+        },
+        {
+          'name': 'Wacom',
+          'id': '2-5',
+          'text': 'Wacom'
         }
       ],
       productList: [
-        /* Adobe 2-1 */
+        /* Dr.web 2-1 */
         {
-          'name': 'adobe',
+          'name': 'Dr.web',
           'id': '2-1',
           'productId': '2-1-1',
-          'photoUrl': require('../../../assets/img/homeproductPhotos/adobe.png'),
-          'alt': 'adobe',
-          'detail': '0000000'
+          'photoUrl': require('../../../assets/img/homeproductPhotos/DrWeb.jpg'),
+          'alt': 'Dr.web(大蜘蛛)',
+          'detail': '全球最早的反病毒产品'
         },
         /* Autodesk 2-2 */
         {
-          'name': 'threeDSMAX',
+          'name': '3DS MAX',
           'id': '2-2',
           'productId': '2-2-1',
           'photoUrl': require('../../../assets/img/productsPhotos/3DMax.jpg'),
@@ -119,14 +124,31 @@ export default {
           'alt': 'office365',
           'detail': '你熟悉的 Office，外加更便捷的协作工具，一切只为帮助你顺利完成更多工作'
         },
-        /* Dr.web */
+        /* Adobe 2-4 */
         {
-          'name': 'Drweb',
+          'name': 'Adobe Creative Cloud',
           'id': '2-4',
           'productId': '2-4-1',
-          'photoUrl': require('../../../assets/img/homeproductPhotos/DrWeb.jpg'),
-          'alt': 'Dr.web(大蜘蛛)',
-          'detail': '全球最早的反病毒产品'
+          'photoUrl': require('../../../assets/img/productsPhotos/ACC.jpg'),
+          'alt': 'Adobe Creative Cloud',
+          'detail': '16款创意应用程序套包，强大的设计组合'
+        },
+        /* Wacom */
+        {
+          'name': 'Wacom Cintiq Pro',
+          'id': '2-5',
+          'productId': '2-5-1',
+          'photoUrl': require('../../../assets/img/wacomPhotos/wacomCP/logo.png'),
+          'alt': 'Wacom Cintiq Pro',
+          'detail': '为专业艺术家和设计师设计，提供世界领先的优秀的屏幕创作体验'
+        },
+        {
+          'name': 'Wacom Intuos Pro',
+          'id': '2-5',
+          'productId': '2-5-2',
+          'photoUrl': require('../../../assets/img/wacomPhotos/wacomIP/logo.png'),
+          'alt': 'Wacom Intuos Pro',
+          'detail': '为专业艺术家，设计师，摄像师等提供自然，精确，专业的数位板体验和创作力'
         }
       ]
     }

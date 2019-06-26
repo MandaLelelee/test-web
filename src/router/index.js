@@ -48,7 +48,12 @@ export default new Router({
         },
         {
           path: '/products/Dr.web',
-          name: 'Drweb',
+          name: 'Dr.web',
+          component: products
+        },
+        {
+          path: '/products/Wacom',
+          name: 'Wacom',
           component: products
         }
       ]
@@ -60,13 +65,13 @@ export default new Router({
       component: technicalServices,
       children: [
         {
-          path: '/technicalServices/solution',
-          name: 'Solution',
+          path: '/technicalServices/Solution1',
+          name: 'Solution1',
           component: technicalServices
         },
         {
-          path: '/technicalServices/increment',
-          name: 'Increment',
+          path: '/technicalServices/Solution2',
+          name: 'Solution2',
           component: technicalServices
         }
       ]

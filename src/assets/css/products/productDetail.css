@@ -17,11 +17,13 @@
   font-weight: bold;
   font-size:15px;
   padding: 80px 0 50px;
+}
+.goBack a{
+  text-decoration: underline;
   cursor: pointer;
 }
-
 .goBack a:hover{
-  text-decoration: underline;
+   background-color: #eeeeee;
 }
 
 
@@ -31,6 +33,7 @@
   display: inline-block;
   vertical-align: top;
   padding-left: 100px;
+  width: 50%;
 }
 .detailName{
   border-bottom: 1px solid #dddddd;
@@ -41,7 +44,7 @@
 .detail{
   margin-top: 25px;
   padding: 15px 15px;
-  width: 700px;
+  width: 95%;
   background-color: #eeeeee;
   color: #666666;
 }

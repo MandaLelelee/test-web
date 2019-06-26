@@ -44,12 +44,12 @@ export default {
     return {
       list: [
         {
-          'name': 'Solution',
+          'name': 'Solution1',
           'id': '3-1',
           'text': '方案1'
         },
         {
-          'name': 'Increment',
+          'name': 'Solution2',
           'id': '3-2',
           'text': '方案2'
         }

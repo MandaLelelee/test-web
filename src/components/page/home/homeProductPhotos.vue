@@ -18,8 +18,15 @@ export default {
     return {
       productPhotos: [
         {
-          'name': 'Adobe',
+          'name': 'Dr.web',
           'id': '2-1',
+          'photoUrl': require('../../../assets/img/homeproductPhotos/DrWeb.jpg'),
+          'alt': 'Dr.Web',
+          'desc': 'Dr.Web'
+        },
+        {
+          'name': 'Adobe',
+          'id': '2-4',
           'photoUrl': require('../../../assets/img/homeproductPhotos/adobe.png'),
           'alt': 'Adobe',
           'desc': 'Adobe'
@@ -39,11 +46,11 @@ export default {
           'desc': 'Microsoft'
         },
         {
-          'name': 'Drweb',
-          'id': '2-4',
-          'photoUrl': require('../../../assets/img/homeproductPhotos/DrWeb.jpg'),
-          'alt': 'Dr.Web',
-          'desc': 'Dr.Web'
+          'name': 'Wacom',
+          'id': '2-5',
+          'photoUrl': require('../../../assets/img/homeproductPhotos/wacom.png'),
+          'alt': 'Wacom',
+          'desc': 'Wacom'
         }
       ]
     }

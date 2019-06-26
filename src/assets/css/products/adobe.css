@@ -1,0 +1,19 @@
+
+.ACC {
+  display: inline-block; /* 如需支持IE8以下版本，用浮动来做 */
+  width: calc(100% / 2.5); /* 此处运用了一个css3的表达式，将div三等分，IE8及以上可以支持，当然也可以根据需要设置固定值 */
+  width: -webkit-calc(100% / 2.5); /*3.09 排除margin的宽度*/
+  width: -moz-calc(100% / 2.5);
+  padding-bottom: 30px;
+  padding-left: 100px;
+}
+
+.ACCPhoto{
+  display: inline-block;
+}
+
+.ACCText{
+  display: inline-block;
+  padding-left: 30px;
+  vertical-align: top;
+}

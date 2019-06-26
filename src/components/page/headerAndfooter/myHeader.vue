@@ -20,20 +20,21 @@
         <router-link :to="{name:'Products',query: {id: '2-1'}}"   class="products" >产品介绍</router-link>
         <ul class="productsMenu" >
           <b></b>
-          <li><router-link :to="{name:'Adobe',query: {id: '2-1'}}" >Adobe</router-link></li>
+          <li><router-link :to="{name:'Dr.web',query: {id: '2-1'}}" >Dr.web</router-link></li>
           <li><router-link :to="{name:'Autodesk',query: {id: '2-2'}}" >Autodesk</router-link></li>
           <li><router-link :to="{name:'Microsoft',query: {id: '2-3'}}" >Microsoft</router-link></li>
-          <li><router-link :to="{name:'Drweb',query: {id: '2-4'}}" >Dr.web</router-link></li>
+          <li><router-link :to="{name:'Adobe',query: {id: '2-4'}}" >Adobe</router-link></li>
+          <li><router-link :to="{name:'Wacom',query: {id: '2-5'}}" >Wacom</router-link></li>
         </ul>
       </li>
-      <li>
+   <!--   <li>
         <router-link :to="{name:'TechnicalServices',query: {id: '3-1'}}" class="technicalServices" >解决方案</router-link>
         <ul class="technicalServicesMenu" >
           <b></b>
-          <li><router-link :to="{name:'Solution',query: {id: '3-1'}}">方案1</router-link></li>
-          <li><router-link :to="{name:'Increment',query: {id: '3-2'}}">方案2</router-link></li>
+          <li><router-link :to="{name:'Solution1',query: {id: '3-1'}}">方案1</router-link></li>
+          <li><router-link :to="{name:'Solution2',query: {id: '3-2'}}">方案2</router-link></li>
         </ul>
-      </li>
+      </li>-->
       <li>
         <router-link to="/contact"  class="contact" >联系我们</router-link>
       </li>

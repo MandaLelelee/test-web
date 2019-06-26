@@ -23,7 +23,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      Somtay Technology (Guangzhou) Co.,Ltd 版权所有 粤ICP备00000000号
+      Somtay Technology (Guangzhou) Co.,Ltd 版权所有 粤ICP备19070516号
     </div>
   </div>
 </template>
