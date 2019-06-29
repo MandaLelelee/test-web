@@ -1,4 +1,5 @@
 <template>
+  <keep-alive>
 <div class="productPhotoBox">
   <div class="responsive" v-for="(item, index) in productPhotos" :key="index">
     <div class="productPhotos">
@@ -9,6 +10,7 @@
     </div>
   </div>
 </div>
+  </keep-alive>
 </template>
 
 <script>

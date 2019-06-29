@@ -2,7 +2,7 @@
   <div>
     <div  class="ACC" v-for="( item , index) in adobeProducts" :key="index">
       <div class="ACCPhoto">
-        <img :src="item.url">
+        <img v-lazy="item.url">
       </div>
       <div class="ACCText">
         <h2>{{item.adobeName}}</h2>

@@ -1,4 +1,5 @@
 <template>
+  <keep-alive>
   <div>
     <headerPhoto></headerPhoto>
     <div class="contact">
@@ -13,6 +14,7 @@
       <div id="allmap"></div>
     </div>
   </div>
+  </keep-alive>
 </template>
 
 <script>

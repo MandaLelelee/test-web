@@ -1,4 +1,5 @@
 <template>
+  <keep-alive>
   <div class="headerMenu">
     <div class="webLogo">
       <img src="../../../assets/img/logo.png"/>
@@ -27,7 +28,7 @@
           <li><router-link :to="{name:'Wacom',query: {id: '2-5'}}" >Wacom</router-link></li>
         </ul>
       </li>
-   <!--   <li>
+<!--      <li>
         <router-link :to="{name:'TechnicalServices',query: {id: '3-1'}}" class="technicalServices" >解决方案</router-link>
         <ul class="technicalServicesMenu" >
           <b></b>
@@ -44,6 +45,7 @@
       </ul>
     </nav>
     </div>
+  </keep-alive>
 </template>
 
 <script>

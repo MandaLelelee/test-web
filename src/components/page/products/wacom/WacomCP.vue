@@ -1,4 +1,5 @@
 <template>
+  <keep-alive>
   <div class="WCP">
     <div class="introduce">
       <h3>Wacom Cintiq Pro搭配了Wacom最新的液晶数位屏技术，为专业艺术家和设计师设计，提供世界领先的优秀的屏幕创作体验。
@@ -34,8 +35,8 @@
       <p>液晶数位屏及压感笔提供2年保修服务</p>
       <p>电源适配器，连接线，笔座，转换接头提供1年保修服务</p>
     </div>
-
   </div>
+  </keep-alive>
 </template>
 
 <script>

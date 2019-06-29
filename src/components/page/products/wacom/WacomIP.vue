@@ -1,4 +1,5 @@
 <template>
+  <keep-alive>
     <div class="WIP">
       <div class="introduce">
       <h3>Wacom Intuos Pro数位板采用了全新的Wacom笔技术，为专业艺术家，设计师，摄像师等提供自然，精确，专业的数位板体验和创作力。</h3>
@@ -31,8 +32,8 @@
         <h3>保修政策</h3>
         <p>数位板及压感笔提供1年保修服务</p>
       </div>
-
     </div>
+  </keep-alive>
 </template>
 
 <script>

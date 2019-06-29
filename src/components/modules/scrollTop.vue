@@ -1,9 +1,11 @@
 <template>
+  <keep-alive>
   <transition name="scroll">
     <div class="scrollTop" @click="toTop" v-show="toTopIsShow">
       返回顶部↑
     </div>
   </transition>
+  </keep-alive>
 </template>
 
 <script>

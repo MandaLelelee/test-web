@@ -3,7 +3,8 @@
       <header-photo></header-photo>
       <div class="detailAll" v-for="( item , index) in productDetail" :key="index" v-if="currentId(item)">
         <div class="goBack"><a @click="$router.back()">产品介绍>>{{item.group}}</a>>>{{item.productName}}</div>
-      <div class="detailPhoto"><img :src="item.photoUrl" :alt="item.alt"></div><!--
+        <div class="detailTop">
+          <div class="detailPhoto"><img :src="item.photoUrl" :alt="item.alt"></div><!--
       --><div class="detailTitle">
         <div class="detailName">
           <h2> {{item.productName}}</h2>
@@ -12,6 +13,8 @@
           {{item.detail}}
         </div>
       </div>
+      </div>
+
       <div class="detailText">
         <div class="detailTextTitle">详细信息 ↓</div>
         <keep-alive>

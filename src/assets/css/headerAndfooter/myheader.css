@@ -21,8 +21,9 @@ nav {
   display: inline-block;
   background-color: #ffffff;
   margin-top: 35px;
-  margin-right: 10%;
+  margin-right: 5%;
   float: right;
+  width: 40%;
 }
 
 nav a {

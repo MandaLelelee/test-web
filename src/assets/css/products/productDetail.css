@@ -1,17 +1,9 @@
 .detailAll{
   margin: 0 300px 80px ;
 }
-.detailPhoto{
-  display: inline-block;
-  border-right: 1px solid #dddddd;
-}
-.detailPhoto img{
-  width: 350px;
-  height: 250px;
-  padding-right: 100px;
-}
 
 
+/*返回*/
 .goBack {
   color: #666666;
   font-weight: bold;
@@ -27,24 +19,41 @@
 }
 
 
+/*产品图片*/
+.detailTop{
+  width: 100%;
+}
+
+.detailPhoto{
+  display: inline-block;
+  border-right: 1px solid #dddddd;
+  width: 40%;
+}
+.detailPhoto img{
+  width: 80%;
+  min-height: 160px;
+  max-width: 400px;
+  padding-left: 18%;
+}
 
 
+/* 产品名字 简介 */
 .detailTitle{
   display: inline-block;
   vertical-align: top;
-  padding-left: 100px;
-  width: 50%;
+  padding-left: 10%;
+  width: 40%;
 }
 .detailName{
   border-bottom: 1px solid #dddddd;
-  padding-top: 50px;
-  padding-bottom: 25px;
+  padding-top: 15%;
+  padding-bottom: 5%;
 }
 
 .detail{
-  margin-top: 25px;
-  padding: 15px 15px;
-  width: 95%;
+  margin-top: 5%;
+  padding: 5% 5%;
+  width: 90%;
   background-color: #eeeeee;
   color: #666666;
 }
@@ -52,7 +61,7 @@
 
 
 
-
+/* 详细信息 */
 .detailText{
   padding-top: 25px;
 }

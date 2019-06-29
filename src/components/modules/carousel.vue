@@ -1,4 +1,5 @@
 <template>
+  <keep-alive>
   <div>
     <div class="carousel-wrap" id="carousel">
       <!--轮播图列表-->
@@ -19,6 +20,7 @@
       </div>
     </div>
   </div>
+  </keep-alive>
 </template>
 
 <script>

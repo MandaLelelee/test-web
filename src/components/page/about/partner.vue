@@ -1,10 +1,12 @@
 <template>
+  <keep-alive>
 <div class="partner">
   <div class="partnerPhotos" v-for="(item, index) in photos" :key="index">
-        <img :src="item.photoUrl" :alt="item.alt">
+        <img v-lazy="item.photoUrl" :alt="item.alt">
   </div><br><br>
   <div>（注意：排名不分前后）</div>
 </div>
+  </keep-alive>
 </template>
 
 <script>

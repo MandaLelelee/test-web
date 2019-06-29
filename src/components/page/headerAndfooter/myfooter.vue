@@ -1,4 +1,5 @@
 <template>
+  <keep-alive>
   <div class="footer-top">
     <div class="footer-contact">
       <h3>联系我们</h3>
@@ -26,6 +27,7 @@
       Somtay Technology (Guangzhou) Co.,Ltd 版权所有 粤ICP备19070516号
     </div>
   </div>
+  </keep-alive>
 </template>
 
 <script>

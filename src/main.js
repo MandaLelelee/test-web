@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from '@/router'
+import VueLazyload from 'vue-lazyload'
 
 Vue.config.productionTip = false
 
@@ -13,3 +14,5 @@ new Vue({
   components: { App },
   template: '<App/>'
 })
+
+Vue.use(VueLazyload) // 直接使用
