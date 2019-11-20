@@ -2,7 +2,7 @@
   <keep-alive>
   <div class="headerMenu">
     <div class="webLogo">
-      <img src="../../../assets/img/logo.png"/>
+      <img src="../../../assets/img/logo1.png"/>
     </div>
     <nav>
       <ul>
