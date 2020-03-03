@@ -55,3 +55,9 @@
   text-align: center;
   padding-top: 8px;
 }
+.footer-bottom a{
+   color: #dddddd;
+ }
+.footer-bottom a:hover{
+  color: #e9280c;
+}

@@ -24,7 +24,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      Somtay Technology (Guangzhou) Co.,Ltd 版权所有 粤ICP备19070516号
+      Somtay Technology (Guangzhou) Co.,Ltd 版权所有 网站备案号：粤ICP备19070516号-1 （<a href="http://www.beian.miit.gov.cn" target="_blank">http://www.beian.miit.gov.cn</a>）
     </div>
   </div>
   </keep-alive>
